@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator using Operators & Functions</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="calculator-box">
+      <h1>Simple Calculator</h1>
+      <p class="subtitle">Using JavaScript Operators & Functions</p>
+
+      <label for="num1">First Number</label>
+      <input type="number" id="num1" placeholder="Enter first number">
+
+      <label for="num2">Second Number</label>
+      <input type="number" id="num2" placeholder="Enter second number">
+
+      <div class="button-grid">
+        <button onclick="add()">Addition (+)</button>
+        <button onclick="subtract()">Subtraction (-)</button>
+        <button onclick="multiply()">Multiplication (*)</button>
+        <button onclick="divide()">Division (/)</button>
+        <button onclick="squareRoot()">Square Root (√x)</button>
+        <button onclick="cubeRoot()">Cube Root (∛x)</button>
+        <button onclick="power()">Power (xʸ)</button>
+        <button class="clear-btn" onclick="clearFields()">Clear</button>
+      </div>
+
+      <div class="result-box">
+        <h2>Result:</h2>
+        <p id="result">Your result will appear here</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
